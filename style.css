@@ -1,0 +1,49 @@
+body {
+    font-family: josefin-sans, sans-serif;
+    font-style: normal;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+h1 {
+    font-size: 64px;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 2em;
+}
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 200px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://use.typekit.net/ruf2wjy.css" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Collatz</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="flex-container">
+                <header>
+                    <h1>Collatz conjecture</h1>
+                </header>
+                <p>
+                    Type in a number you want to run the Collatz conjecture on.
+                </p>
+                <label for="input-number"
+                    >Type your number here and press "Enter"</label
+                >
+                <input type="number" name="input-number" id="input-number" />
+            </div>
+            <div class="info-container">
+                <div class="info-box">
+                    <h4>The first number was</h4>
+                    <h3 id="first-number">0</h3>
+                </div>
+                <div class="info-box">
+                    <h4>The highest number was</h4>
+                    <h3 id="highest-number">0</h3>
+                </div>
+                <div class="info-box">
+                    <h4>The amount of numbers was</h4>
+                    <h3 id="amount-numbers">0</h3>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
